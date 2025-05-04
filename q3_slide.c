@@ -10,7 +10,7 @@ char* devolver_caracter(int c){
     char *letra_str = (char*) malloc(2 * sizeof(char));
 
     if (letra_str == NULL) {
-        return NULL; //
+        return NULL; 
     } 
     
     char letra = (char)c;
